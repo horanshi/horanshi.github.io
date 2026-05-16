@@ -58,7 +58,7 @@
         <tr>
           <td>
             <heading>News</heading>
-            <div style="height: 240px; overflow: auto;">
+            <div style="height: 200px; overflow: auto;">
               <ul>
 		       <li>05/15/2026: “Few Tokens, Big Leverage: Preserving Safety Alignment by Constraining Safety Tokens during Fine-tuning” was accepted to KDD 2026.</li>
 			   <li>11/07/2025: “EASE: Practical and Efficient Safety Alignment for Small Language Models” was accepted to AAAI 2026 and selected as an <b>oral presentation</b>.</li>
@@ -72,11 +72,10 @@
         </tr>
       </tbody></table>
         
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-          <tr>
-            <td>
-              <heading>Publications <font size=4></font></heading>
-
+    <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+        <tr>
+        	<td>
+        		<heading>Publications <font size=4></font></heading>
             </td>
           </tr>
         </tbody></table>
@@ -103,14 +102,14 @@
 	      <papertitle>Few Tokens, Big Leverage: Preserving Safety Alignment by Constraining Safety Tokens during Fine-tuning</papertitle>
 	    </a>
 	    <br>
-	    <strong>Guoli Wang*</strong>,
+	    Guoli Wang*,
 	    <strong>Haonan Shi*</strong>,
 	    Tu Ouyang,
 	    An Wang
 	    <br>
 	    <font color="#38b000"><em><strong>KDD 2026</strong></em></font>
 	    <br>
-	    (* indicates equal contribution)
+	    * indicates equal contribution
 	    <br>
 	    <p>
 	      We propose PACT, a token-level constrained fine-tuning framework that preserves safety alignment by regularizing safety-critical tokens while allowing other general tokens to adapt to downstream tasks.
@@ -129,7 +128,7 @@
 	    </a>
 	    <br>
 	    <strong>Haonan Shi</strong>,
-	    <strong>Guoli Wang</strong>,
+	    Guoli Wang,
 	    Tu Ouyang,
 	    An Wang
 	    <br>
@@ -141,37 +140,60 @@
 	  </td>
 	</tr>
 
-      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
         <tr>
           <td style="padding:20px;width:100%;vertical-align:middle">
             <!-- <h2><b><font color="red">2021</font></b></h2> -->
             <font size=4><em>2025</em></font>
           </td>
         </tr>
+    </tbody></table>
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-      </tbody></table>
-
-      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-
+	<!-- PoPETs 2025: PDA-FD Privacy Leakage -->
 	<tr style="vertical-align:left;">
-            <td style="padding:20px;width:35%;vertical-align:center">
-              <img src="images/IMM.png" alt="3DSP" width="100%">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:center">
-              <a href="https://arxiv.org/abs/2503.02103" id="3DSP">
-                <papertitle>Superficial Self-Improved Reasoners Benefit from Model Merging
-                </papertitle>
-              </a>
-              <br>
-              <a href="https://xiangchi-yuan.github.io/">Xiangchi Yuan</a>, <a href="https://chunhuizng.github.io/">Chunhui Zhang</a>, <strong>Zheyuan Liu</strong>,  <a href="https://dachuanshi.com/">Dachuan Shi</a>, <a href="https://faculty-directory.dartmouth.edu/soroush-vosoughi">Soroush Vosoughi</a>, <a href="https://wenke.gtisc.gatech.edu/">Wenke Lee</a>
-              <br>
-              <font color="#38b000"><em><strong>Proceedings of EMNLP 2025 Main. </strong></em></font>
-              <br>
-              <p>
-				We propose Iterative Model Merging (IMM), a method that strategically combines weights from original and self-improved models to preserve generalization while incorporating genuine reasoning improvements.			  </p>
-            </td>
-          </tr>
+	  <td style="padding:20px;width:35%;vertical-align:center">
+	    <img src="images/PDAFD.png" alt="PDA-FD Privacy Leakage" width="100%">
+	  </td>
+	  <td style="padding:20px;width:75%;vertical-align:center">
+	    <a href="https://petsymposium.org/popets/2025/popets-2025-0127.php" id="pdafd-privacy">
+	      <papertitle>Unveiling Client Privacy Leakage from Public Dataset Usage in Federated Distillation</papertitle>
+	    </a>
+	    <br>
+	    <strong>Haonan Shi</strong>,
+	    Tu Ouyang,
+	    An Wang
+	    <br>
+	    <font color="#38b000"><em><strong>PoPETs 2025</strong></em></font>
+	    <br>
+	    <p>
+	      We reveal privacy risks in public dataset-assisted federated distillation and introduce attacks that infer clients' label distributions and membership information from their predictions on public datasets.
+	    </p>
+	  </td>
+	</tr>
+
+	<!-- WWW 2025: GuardedTuning -->
+	<tr style="vertical-align:left;">
+	  <td style="padding:20px;width:35%;vertical-align:center">
+	    <img src="images/GUARDTUNING.png" alt="GuardedTuning" width="100%">
+	  </td>
+	  <td style="padding:20px;width:75%;vertical-align:center">
+	    <a href="https://dl.acm.org/doi/abs/10.1145/3701716.3715453" id="guardedtuning">
+	      <papertitle>Navigating the Designs of Privacy-Preserving Fine-tuning for Large Language Models</papertitle>
+	    </a>
+	    <br>
+	    <strong>Haonan Shi</strong>,
+	    Tu Ouyang,
+	    An Wang
+	    <br>
+	    <font color="#38b000"><em><strong>WWW 2025</strong></em></font>
+	    <br>
+	    <p>
+	      We propose GuardedTuning, a set of privacy-preserving fine-tuning designs that navigate trade-offs among model utility, privacy guarantees, and tuning costs for large language models.
+	    </p>
+	  </td>
+	</tr>
+	
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
@@ -204,6 +226,28 @@
             </td>
           </tr>
 
+		  <!-- IEEE EuroS&P 2024: LDC-MIA -->
+			<tr style="vertical-align:left;">
+			  <td style="padding:20px;width:35%;vertical-align:center">
+			    <img src="images/LDC-MIA.png" alt="LDC-MIA" width="100%">
+			  </td>
+			  <td style="padding:20px;width:75%;vertical-align:center">
+			    <a href="https://ieeexplore.ieee.org/abstract/document/10628533" id="ldc-mia">
+			      <papertitle>Learning-Based Difficulty Calibration for Enhanced Membership Inference Attacks</papertitle>
+			    </a>
+			    <br>
+			    <strong>Haonan Shi</strong>,
+			    Tu Ouyang,
+			    An Wang
+			    <br>
+			    <font color="#38b000"><em><strong>IEEE EuroS&amp;P 2024</strong></em></font>
+			    <br>
+			    <p>
+			      We propose LDC-MIA, a learning-based difficulty calibration method that improves membership inference attacks at low false positive rates while maintaining practical attack costs.
+			    </p>
+			  </td>
+			</tr>
+			
 			
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
@@ -216,24 +260,29 @@
         
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           
-
-	<tr style="vertical-align:left;">
-          <td style="padding:20px;width:35%;vertical-align:center">
-            <img src="images/gfame.jpg" alt="3DSP" width="100%">
-          </td>
-          <td style="padding:20px;width:75%;vertical-align:center">
-            <a href="https://dl.acm.org/doi/abs/10.1145/3543507.3583207" id="3DSP">
-              <papertitle> Fair Graph Representation Learning via Diverse Mixture of Experts
-              </papertitle>
-            </a>
-            <br>
-            <strong>Zheyuan Liu*</strong>, <a href="https://chunhuizng.github.io/">Chunhui Zhang*</a>, <a href="https://www.yijuntian.com/">Yijun Tian</a>, <a href="https://www.linkedin.com/in/erchi-zhang-0867041b8/">Erchi Zhang</a>, <a href="https://www.cs.hku.hk/index.php/people/academic-staff/chuang">Chao Huang</a>, <a href="https://engineering.nd.edu/faculty/yanfang-fanny-ye/">Fanny Ye</a>, <a href="https://chuxuzhang.github.io/Lab/lab_index.html">Chuxu Zhang</a>
-            <br>
-            <font color="#38b000"><em><strong>Proceedings of The Web Conference (WWW), 2023.</strong></em></font>
-            <br>
-	    <p>We develop Graph-Fairness Mixture of Experts (G-Fame), a novel plug-and-play method to assist any GNNs to learn distinguishable representations with unbiased attributes. </p>
-          </td>
-        </tr>
+		<!-- arXiv 2023: KPDP -->
+		<tr style="vertical-align:left;">
+		  <td style="padding:20px;width:35%;vertical-align:center">
+		    <img src="images/KPDP.png" alt="KPDP" width="100%">
+		  </td>
+		  <td style="padding:20px;width:75%;vertical-align:center">
+		    <a href="https://arxiv.org/pdf/2307.16849" id="kpdp">
+		      <papertitle>A Trajectory K-Anonymity Model Based on Point Density and Partition</papertitle>
+		    </a>
+		    <br>
+		    Wanshu Yu*,
+		    <strong>Haonan Shi*</strong>,
+		    Hongyun Xu
+		    <br>
+		    <font color="#38b000"><em><strong>arXiv 2023</strong></em></font>
+		    <br>
+	        * indicates equal contribution
+	        <br>
+		    <p>
+		      We propose KPDP, a trajectory k-anonymity model based on point density and partition, to protect trajectory datasets against re-identification attacks while reducing data utility loss.
+		    </p>
+		  </td>
+		</tr>
         
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
@@ -245,29 +294,22 @@
         <table width="90%" align="center" border="0" cellpadding="20"><tbody>
 
 	  <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/amazon.webp" width="70%" ></td>
+            <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/TIKTOK.svg" width="70%" ></td>
             <td width="70%" valign="center">
-              <b>Amazon Science</b>
-	       <br> Palo Alto, CA, USA
-              <br> 2025.05 - 2025.08 <br>
-              <br> <b>Applied Scientist Intern @ Rufus</b>
-              <br> Manager: <a href="https://www.amazon.science/author/laurence-yang-li">Laurence (Yang) Li</a>
-	      <br> Mentor: Dr.<a href="https://scholar.google.com/citations?user=0lZ3KfkAAAAJ&hl=en">Liqiang Xiao</a>, <a href="https://weixiangyan.github.io/">Weixiang Yan</a>
-              
+              <b>TikTok</b>
+	       <br> San Jose, CA, USA
+              <br> 2026.04 - 2026.07 <br>
+              <br> <b>Machine Learning Engineer Intern @ Privacy and Data Protection Office </b>
             </td>
       </tr>
 
       <tr>
-        <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/amazon.webp" width="70%" ></td>
+        <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/TIKTOK.svg" width="70%" ></td>
         <td width="70%" valign="center">
-          <b>Amazon Science</b>
-       <br> Seattle, WA, USA
-          <br> 2024.05 - 2024.08<br>
-          <br> <b>Applied Scientist Intern @ PXTCS</b>
-          <br> Manager: Dr. <a href="https://scholar.google.com/citations?user=a-GpXlEAAAAJ&hl=en">Belhassen Bayar</a>
-      <br> Mentor: Dr. <a href="https://scholar.google.nl/citations?user=bZQdJ5EAAAAJ&hl=en">Suraj Maharjan</a>
-      <br> Mentor: <a href="https://scholar.google.com/citations?user=IpcxRxMAAAAJ&hl=en">Rahil Parikh</a>
-
+          <b>TikTok</b>
+       <br> San Jose, CA, USA
+          <br> 2026.01 - 2026.04 <br>
+          <br> <b>Machine Learning Engineer Intern @ Privacy and Data Protection Office </b>
         </td>
       </tr>
 
